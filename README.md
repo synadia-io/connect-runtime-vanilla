@@ -101,3 +101,9 @@ describes the configuration options and overall structure.
 ### sources
 The `sources` directory contains the source components provided by the runtime. Similar to a sink, each source has 
 its own definition file.
+
+## Contributing
+We love to get feedback, bug reports, and contributions from our community. If you have any questions or want to
+contribute, feel free to reach out in the #connectors channel on the NATS slack.
+
+Take a look at the [Contributing](CONTRIBUTING.md) guide to get started.
