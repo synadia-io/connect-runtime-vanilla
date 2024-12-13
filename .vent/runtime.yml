@@ -1,0 +1,11 @@
+model_version: "1"
+name: vanilla
+label: Vanilla
+version: 0.0.1
+image: ghcr.io/synadia-io/connect-runtime-vanilla:latest
+author:
+  name: Synadia
+  email: code@synadia.com
+description: |-
+  The vanilla runtime serves as an example of what a simple runtime might look like. It provides only a single input
+  and output, and is intended to be used as a starting point for creating more complex runtimes.

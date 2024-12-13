@@ -1,0 +1,32 @@
+model_version: "1"
+name: nats
+label: NATS
+kind: source
+status: experimental
+description: |-
+  Read messages from a NATS subject
+fields:
+  - path: url
+    name: url
+    label: URL
+    type: string
+    description: The URL of the NATS server to connect to.
+    default: "nats://localhost:4222"
+    constraints:
+      - regex: "^(nats|tls)://.*$"
+        range:
+          gte: 1
+          lte: 1024
+    examples:
+      - "nats://localhost:4222"
+      - "tls://connect.ngs.global"
+
+  - path: subject
+    name: subject
+    label: Subject
+    type: string
+    description: The subject to subscribe to. This may include wildcards.
+    examples:
+      - "foo.bar"
+      - "foo.*"
+      - "foo.>"

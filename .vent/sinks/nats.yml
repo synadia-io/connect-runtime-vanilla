@@ -1,0 +1,26 @@
+model_version: "1"
+name: nats
+label: NATS
+kind: sink
+status: experimental
+description: |-
+  Write messages to a NATS subject
+fields:
+  - path: url
+    name: url
+    label: URL
+    type: string
+    description: The URL of the NATS server to connect to.
+    default: "nats://localhost:4222"
+    examples:
+      - "nats://localhost:4222"
+      - "tls://connect.ngs.global"
+
+  - path: subject
+    name: subject
+    label: Subject
+    type: string
+    description: The subject to write to. This may NOT include wildcards.
+    examples:
+      - "foo.bar"
+      - "finance"
