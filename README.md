@@ -56,8 +56,8 @@ A workload function will perform the actual work based on the connector configur
 function in any way you see fit. The `model.ConnectorConfig` struct is a struct which represents the connector
 configuration.
 
-## .vent Directory
-Every runtime must have a `.vent` directory. This directory contains meta information about the runtime as well as the
+## .connect Directory
+Every runtime must have a `.connect` directory. This directory contains meta information about the runtime as well as the
 components provided by the runtime. 
 
 ### runtime.yml

@@ -12,4 +12,4 @@ tasks:
 
   docker:local:
     cmds:
-      - docker build . -t connect-runtime-wombat:local
+      - docker build . -t connect-runtime-vanilla:local
