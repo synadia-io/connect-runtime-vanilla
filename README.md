@@ -1,4 +1,7 @@
 # Vanilla Runtime
+> [!IMPORTANT]
+> This runtime is heavily outdated and will be archived until further notice.
+
 This is the most trivial example of a runtime. It only provides a single source and sink, both of which are NATS.
 The purpose of this runtime is to show how you can create your own runtimes, nothing more.
 
